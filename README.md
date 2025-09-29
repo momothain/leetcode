@@ -8,7 +8,7 @@ code-reviewed means I spent time reviewing and improving the code after initiall
 ### [Lowest Common Ancestor of a Binary Search Tree, 9/25,29/25](https://github.com/momothain/leetcode/blob/main/code-reviewed/MED_235_lca_bst.py)
 - Be really careful that most .operations() are in place modifiers and not functional. I did `return [root.val].append(left)` for recursion and that always returns None.
 
-### [Max Subarray, 9/25,29/25]()
+### [Max Subarray, 9/25,29/25](https://github.com/momothain/leetcode/blob/main/code-reviewed/MED_53_maximum_subarray.py)
 - Simplify end conditions by understanding what the loop is assuming in terms of induction. Checking end of list twice is a Red Flag. 
 - Ensure defaults are truly minimum/maximum esp when 'setting after the loop for style (bc my loop end conditions were overcomplicated)'
 
