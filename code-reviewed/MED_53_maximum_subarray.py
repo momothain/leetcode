@@ -136,18 +136,7 @@ class Solution:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+# aug 11 accepted first try
     def AmaxSubArray(self, nums: List[int]) -> int:
         # def main(nums: List[int]) -> int:
         if not nums:

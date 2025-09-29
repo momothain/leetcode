@@ -5,6 +5,9 @@ code-reviewed means I spent time reviewing and improving the code after initiall
 
 ## General Notes
 
+### [Lowest Common Ancestor of a Binary Search Tree]
+- Be really careful that most .operations() are in place modifiers and not functional. I did `return [root.val].append(left)` for recursion and that always returns None.
+
 ### [Flood Fill, 9/21/25](https://github.com/momothain/leetcode/blob/bf5a4ac2258e09c504a582ee8a644b86d66682d8/code-reviewed/EASY_733_flood_fill.py)
 - collections.deque for BFS for const popleft, append.
 - for e.g. Set[], Tuple IS hashable. List is not.
