@@ -5,8 +5,12 @@ code-reviewed means I spent time reviewing and improving the code after initiall
 
 ## General Notes
 
-### [Lowest Common Ancestor of a Binary Search Tree](https://github.com/momothain/leetcode/blob/main/code-reviewed/MED_235_lca_bst.py)
+### [Lowest Common Ancestor of a Binary Search Tree, 9/25,29/25](https://github.com/momothain/leetcode/blob/main/code-reviewed/MED_235_lca_bst.py)
 - Be really careful that most .operations() are in place modifiers and not functional. I did `return [root.val].append(left)` for recursion and that always returns None.
+
+### [Max Subarray, 9/25,29/25]()
+- Simplify end conditions by understanding what the loop is assuming in terms of induction. Checking end of list twice is a Red Flag. 
+- Ensure defaults are truly minimum/maximum esp when 'setting after the loop for style (bc my loop end conditions were overcomplicated)'
 
 ### [Flood Fill, 9/21/25](https://github.com/momothain/leetcode/blob/bf5a4ac2258e09c504a582ee8a644b86d66682d8/code-reviewed/EASY_733_flood_fill.py)
 - collections.deque for BFS for const popleft, append.
