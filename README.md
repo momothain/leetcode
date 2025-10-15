@@ -4,6 +4,9 @@ any coding practice problems actually, but default (direct difficulty subdirecto
 code-reviewed means I spent time reviewing and improving the code after initially trying to solve the problem w/ time constraints, e.g. [Flood Fill](https://github.com/momothain/leetcode/blob/bf5a4ac2258e09c504a582ee8a644b86d66682d8/code-reviewed/EASY_733_flood_fill.py)
 
 ## General Notes
+### [232. Implement Queue using Stacks, 10/15/25]()
+- "Class Attributes" - Initializing fields in the Class fields causes them to not reset between tests/instantiations
+- put them in __init__() instead
 
 ### [Lowest Common Ancestor of a Binary Search Tree, 9/25,29/25](https://github.com/momothain/leetcode/blob/main/code-reviewed/MED_235_lca_bst.py)
 - Be really careful that most .operations() are in place modifiers and not functional. I did `return [root.val].append(left)` for recursion and that always returns None.
