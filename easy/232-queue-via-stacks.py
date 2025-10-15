@@ -1,3 +1,4 @@
+"""https://leetcode.com/problems/implement-queue-using-stacks/description/"""
 class MyQueue:
     # Class variables are shared btw all instances and don't reset on creation and such
     # s1 = []
@@ -59,3 +60,24 @@ class MyQueue:
         elts, empty_list = self.get_elts()
         print(elts, empty_list)
         return not bool(elts)
+    
+    
+    """Accepted
+22 / 22 testcases passed
+Morgann Thain
+Morgann Thain
+submitted at Oct 15, 2025 16:20
+
+
+Solution
+Runtime
+0
+ms
+Beats
+100.00%
+Analyze Complexity
+Memory
+18.07
+MB
+Beats
+20.95%"""
