@@ -136,12 +136,20 @@ class Solution:
         return new_ls
 
 
-
-
-
-        
-        
-
+# if __name__ == "__main__":
+#     s = Solution()
+#     s.test_insert()
+    
+# chatgpt idea
 if __name__ == "__main__":
     s = Solution()
-    s.test_insert()
+    tests = [
+        ([], [7,8], [[7,8]]),
+        ([[0,2],[3,5]], [7,8], [[0,2],[3,5],[7,8]]),
+        ([[4,5]], [0,3], [[0,3],[4,5]]),
+        ([[4,5]], [0,4], [[0,5]]),
+    ]
+    for intervals, newInterval, expected in tests:
+        result = s.insert(intervals, newInterval)
+        assert result == expected, f"Fail: {intervals=} {newInterval=} got {result} expected {expected}"
+    print("✅ All passed")
