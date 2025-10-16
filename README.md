@@ -4,6 +4,13 @@ any coding practice problems actually, but default (direct difficulty subdirecto
 code-reviewed means I spent time reviewing and improving the code after initially trying to solve the problem w/ time constraints, e.g. [Flood Fill](https://github.com/momothain/leetcode/blob/bf5a4ac2258e09c504a582ee8a644b86d66682d8/code-reviewed/EASY_733_flood_fill.py)
 
 ## General Notes
+### [57. Insert Interval]()
+- edge cases not covered at all w/o test cases....
+- need to check loop/special/insert conditions all the time
+- need to check very start/end things
+- great one to practice testing on
+
+
 ### [232. Implement Queue using Stacks, 10/15/25](https://github.com/momothain/leetcode/blob/main/easy/232-queue-via-stacks.py)
 - "Class Attributes" - Initializing fields in the Class fields causes them to not reset between tests/instantiations
 - put them in __init__() instead
