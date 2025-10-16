@@ -3,6 +3,16 @@ any coding practice problems actually, but default (direct difficulty subdirecto
 
 code-reviewed means I spent time reviewing and improving the code after initially trying to solve the problem w/ time constraints, e.g. [Flood Fill](https://github.com/momothain/leetcode/blob/bf5a4ac2258e09c504a582ee8a644b86d66682d8/code-reviewed/EASY_733_flood_fill.py)
 
+used [Grind 75](https://www.techinterviewhandbook.org/grind75/?order=all_rounded&weeks=2&hours=6) 
+
+### scripts
+```
+source .venv/bin/activate
+git add .
+git commit -am "
+git push
+```
+
 ## General Notes
 ### [57. Insert Interval](https://github.com/momothain/leetcode/blob/main/code-reviewed/MED_57_insert_interval.py)
 - edge cases not covered at all w/o test cases....
